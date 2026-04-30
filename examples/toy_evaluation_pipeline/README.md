@@ -32,10 +32,14 @@ python toy_scoring_demo.py
 Expected output:
 
 ```text
-Toy ranking:
-1 cluster_first 0.7520
-2 low_fragmentation 0.7260
-3 baseline 0.5870
+Toy ranking (composite = 0.4*structural + 0.3*packaging + 0.3*uncertainty):
+
+  1. cluster_first           composite=0.7520  (str=0.74, pkg=0.70, unc=0.82)
+  2. low_fragmentation       composite=0.7260  (str=0.78, pkg=0.72, unc=0.66)
+  3. baseline                composite=0.5870  (str=0.62, pkg=0.58, unc=0.55)
+
+Note: this composite is illustrative only.
+AlphaPath uses a staged evaluation pipeline, not a single weighted sum.
 ```
 
 ---
