@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.env.local
+.venv/
+venv/
+env/
+ENV/
+
+# Private/internal
+.claude/
+GIT_PREP/
+AUDIT/
+RESTRUCTURE/
+archive/
+scratch/
+tmp_*.txt
+*.tmp
+*.bak
+
+# Documents not allowed in public portfolio
+*.docx
+*.xlsx
+*.xls
+*.pkl
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.zip
+*.rar
+*.7z
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Sensitive/private materials
+Tesis_Doctoral_*
+*private*
+*confidential*
+*internal*
+*draft*
+*borrador*
+
+# Heavy generated outputs
+artifacts/
+alphapath_plan_search/
+results/
+outputs/raw/
+data/raw/
+data/sensitive/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

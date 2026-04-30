@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or refer to this research portfolio, please cite it as below."
+title: "AlphaPath Research Portfolio"
+authors:
+  - family-names: "Paz"
+    given-names: "Hugo Roger"
+    orcid: "https://orcid.org/0000-0003-1237-7983"
+repository-code: "https://github.com/hrpaz2023/alphapath-research-portfolio"
+abstract: >
+  Public research portfolio for AlphaPath, a framework for curriculum architecture analysis,
+  search-based design exploration, and evaluation of professional learning trajectories.
+keywords:
+  - curriculum architecture
+  - engineering education
+  - curriculum analytics
+  - search-based design
+  - graph analysis
+  - higher education
+  - AlphaPath
+license: "All rights reserved"
+version: "1.0.0"
+date-released: "2026-04-29"

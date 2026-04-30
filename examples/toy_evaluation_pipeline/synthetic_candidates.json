@@ -1,0 +1,20 @@
+[
+  {
+    "candidate": "baseline",
+    "structural_score": 0.62,
+    "packaging_score": 0.58,
+    "uncertainty_score": 0.55
+  },
+  {
+    "candidate": "low_fragmentation",
+    "structural_score": 0.78,
+    "packaging_score": 0.72,
+    "uncertainty_score": 0.66
+  },
+  {
+    "candidate": "cluster_first",
+    "structural_score": 0.74,
+    "packaging_score": 0.70,
+    "uncertainty_score": 0.82
+  }
+]
