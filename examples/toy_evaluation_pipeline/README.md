@@ -31,11 +31,11 @@ python toy_scoring_demo.py
 
 Expected output:
 
-```
+```text
 Toy ranking:
-1 cluster_first 0.7
-2 low_fragmentation 0.732
-3 baseline 0.585
+1 cluster_first 0.7520
+2 low_fragmentation 0.7260
+3 baseline 0.5870
 ```
 
 ---
